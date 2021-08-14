@@ -37,7 +37,7 @@ jobs:
         uses: daisaru11/setup-cd-tools@v1 
         with: 
           kubectl: "1.19.2" 
-          skaffold: "1.20.0"
+          skaffold: "1.29.0"
       - name: Cache skaffold image builds & config 
         uses: actions/cache@v2 
         with: 
